@@ -1,0 +1,80 @@
+.navbar-brand {
+    font-size: 28px;
+    color: blueviolet;
+}
+
+.nav-link {
+    font-size: 20px;
+
+}
+
+.nav-link:hover {
+    color: blueviolet !important;
+    font-weight: bold;
+}
+
+.form-label {
+    font-size: 18px;
+}
+
+.btn {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}
+
+.form {
+    background-color: rgb(210, 233, 240);
+    min-height: 300px;
+
+}
+
+.text-muted:hover {
+    color: blueviolet !important;
+}
+
+.main {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #666666;
+    margin: 10px 0 15px 0;
+}
+
+.main .btn {
+    padding: 10px 28px;
+    font-size: 20px;
+    border-radius: 50px;
+    border-width: 2px;
+}
+
+.main span {
+    color: blueviolet;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drop-area {
+    border: 2px dashed blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.drop-area.active {
+    border: 2px solid blueviolet;
+}
